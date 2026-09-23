@@ -1,0 +1,147 @@
+#arthematic oprators.py
+
+a = 10
+b = 3
+
+print("Addition:", a + b)
+print("Subtraction:", a - b)
+print("Muliplication:", a * b)
+print("Divition:", a / b)
+print("Floor Division:", a // b)
+print("Remainder:", a % b)
+print("Power:", a** b)
+
+#simple calculator
+a=int(input("Enter first number:"))
+b=int(input("Enter second n"))
+
+print("Addition:", a + b)
+print("Subtraction:", a - b)
+print("Multiplication:", a * b)
+print("Division:", a / b)
+
+#student marks calculator
+name = input ("Enter student name: ")
+
+m1 = int(input("Enter python marks: "))
+m2 = int(input("Enter java marks: "))
+m3 = int(input("Enter SQL marks: "))
+
+total = m1 + m2 + m3
+average = total / 3
+
+print("\n----- student Report ------")
+print("Name:",name)
+print("Total:", total)
+
+#shopping bill calculator
+price = float(input("Enter produt 1 price"))
+price = float(input("Enter produt 2 price"))
+price = float(input("Enter produt 3 price")
+
+Total price = price1 + price2 + price3
+
+#assinment operators
+x = 10
+
+x += 5
+print(x)
+
+x -= 2
+print(x)
+
+x *= 3
+print(x)
+#bank balance
+balance = 10000
+
+deposite = 5000
+balance -= deposite
+
+print("After deposite:", balance)
+
+#comparision operators
+a = 10
+b = 20
+
+print(a == b)
+print(a != b)
+print(a > b)
+print(a < b)
+print(a >= b)
+print(a <= b)
+
+#age ability checker
+age =int(input("Enter your age"))
+
+print("Eligibility:", age >=18)
+
+#pass or fail checker
+marks =int(input("Enter marks"))
+#logical operators
+age = 25
+citizen = True
+
+print(age >=18 and citizen == True)
+
+age = 16
+citizen = True
+print(age >=18 and citizen == True)
+
+has_card = False
+has_cash = True
+
+print(has_card or has_cash)
+
+is_logged_in = True
+
+print(not is_logged_in)
+
+#atm eligibility checke
+balance = 10000
+withdraw = 500
+
+print(withdraw > 0 and withdraw <= balance)
+
+#student scholorship eligibiliy checker
+marks = float(input("Enter marks:"))
+attendance = float(input("Enter attendance"))
+
+eligible = marks >=85 and attendance >= 75
+
+print("scholorship Eligible:", eligible)
+
+
+
+#identity operator
+a = None
+
+print(a is None)
+print(a is not None)
+
+#bitwise operators
+a = 5
+b = 3
+
+print(a & b)
+print(a | b)
+print(a ^ b)
+
+#electric city bill calculator
+units =int(input("Enter electricity units:"))
+
+rate = 6
+
+bill = units * rate
+print("Electricity Bill:", bill)
+
+#travel expense calculator
+travel = float(input("Travel expense: "))
+food = float(input("Food expense: "))
+hotel = float(input("Hotel expense: "))
+
+total = travel + food + hotel
+
+print("Total Expense:", total)
+
+
